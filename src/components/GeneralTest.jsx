@@ -38,7 +38,7 @@ export default function GeneralTest() {
             let tempResult = [1, 2, 3, 4, 5]
             return (
                 <div>
-                    <h3>
+                    <h3 dir='rtl'>
                         {test[test1Index].title}
                         {tempResult.map((q, index) => (
                             <div>
